@@ -1,0 +1,7 @@
+ Serve static files (e.g., CSS files)
+app.use(express.static('public'));
+
+ Specify the CSS file location in the HTML templates
+ If using a template engine, include the CSS file in the corresponding views/templates
+ For example, in 'home.ejs', 'services.ejs', and 'contact.ejs':
+ <link rel="stylesheet" href="/styles.css">
